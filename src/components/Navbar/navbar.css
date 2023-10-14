@@ -89,10 +89,10 @@ header .navBtn {
         z-index: 100;
     }
 
-    nav li {
+    /* nav li {
         width: 70%;
         text-align: center;
-    }
+    } */
 
     header .responsiveNav {
         transform: none;
@@ -107,5 +107,6 @@ header .navBtn {
 
     .loginButton {
         margin: 0;
+        padding: 7px 40px;
     }
 }
