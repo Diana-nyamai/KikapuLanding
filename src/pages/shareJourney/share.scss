@@ -1,0 +1,55 @@
+.shareContainer{
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+}
+.shareLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.shareRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: $whiteText;
+}
+.shareRight h3{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.shareRight p{
+    margin-bottom: 30px;
+    width: 400px;
+}
+.shareBtn{
+    width: 260px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: $mainColor;
+    color: $whiteText;
+    border-radius: 30px;
+}
+@media all and (max-width: 840px){
+    .shareContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px 0;
+    }
+    .shareLeft, .shareRight{
+        width: 100%;
+    }
+    .shareLeft img{
+        width: 100%;
+    }
+    .shareRight{
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .shareRight p{
+        width: auto;
+    }
+}
