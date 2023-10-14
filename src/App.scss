@@ -6,5 +6,9 @@
 
 // pages
 @import './pages/Home/home.scss';
+@import './pages/Features/features.scss';
 
 
+.App{
+    overflow-x: hidden;
+}

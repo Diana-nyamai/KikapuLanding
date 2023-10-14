@@ -1,0 +1,52 @@
+.FeaturesContainer{
+    padding: 200px;
+}
+.featuresBox{
+    border: 3px solid $mainColor;
+    box-shadow: 0px 8px 1px $mainColor;
+    height: auto;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+.fText{
+    text-align: center;
+    padding: 20px 120px;
+}
+.featuresList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-top: 80px;
+    gap: 100px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+.list img{
+    width: 70px;
+    height: 70px;
+}
+.list p{
+    text-align: center;
+}
+
+@media all and (max-width: 1024px){
+    .FeaturesContainer{
+        padding: 40px;
+    }
+    .featuresBox{
+        height: auto;
+    }
+    .fText{
+        padding: 15px;
+    }
+    .featuresList{
+        padding: 10px;
+        gap: 20px;
+    }
+}
