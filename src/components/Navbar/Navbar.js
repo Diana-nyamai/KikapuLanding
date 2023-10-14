@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <header>
       <h2>
-        Kikapu<span>.</span>
+        Kikapu<span style={{color: '#18D26E'}}>.</span>
       </h2>
       <nav ref={navRef}>
         <Link to={"#"}>Home</Link>
