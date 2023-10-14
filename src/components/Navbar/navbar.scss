@@ -1,18 +1,11 @@
-:root {
-    --mainColor: #11273F;
-    --secondaryColor: #18D26E;
-    --whiteText: #ffffff;
-    --blackText: #000000;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     padding: 0 2rem;
-    background-color: var(--mainColor);
-    color: var(--whiteText);
+    background-color: $mainColor;
+    color: $whiteText;
     /* box-shadow: inset -9px -9px 18px #041a2c,
         inset 9px 9px 18px #0c4270; */
 }
@@ -29,18 +22,18 @@ nav a {
 }
 
 nav a {
-    color: var(--whiteText);
+    color: $whiteText;
     text-decoration: none;
 }
 
 nav a:hover {
     cursor: pointer;
-    color: var(--secondaryColor);
+    color: $secondaryColor;
     transform: scale(1.05);
 }
 
 nav a:focus {
-    color: var(--secondaryColor);
+    color: $secondaryColor;
 }
 
 header .navBtn {
@@ -49,18 +42,18 @@ header .navBtn {
     cursor: pointer;
     border: none;
     outline: none;
-    color: var(--whiteText);
+    color: $whiteText;
     visibility: hidden;
     opacity: 0;
 }
 
 .loginButton {
     margin-left: 100px;
-    border: 1px solid var(--secondaryColor);
+    border: 1px solid $secondaryColor;
     background-color: rgba(24, 210, 110, 0.21);
     padding: 0 40px;
     border-radius: 20px;
-    color: var(--whiteText);
+    color: $whiteText;
 }
 
 @media all and (max-width: 1024px) {
@@ -81,7 +74,7 @@ header .navBtn {
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        background-color: var(--mainColor);
+        background-color: $mainColor;
         box-shadow: inset -11px 11px 7px #03121f66,
             inset 11px -11px 7px #0d4a7d;
         transition: 1s;

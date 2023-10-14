@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
-import './navbar.css'
 
 export const Navbar = () => {
   const navRef = useRef();
