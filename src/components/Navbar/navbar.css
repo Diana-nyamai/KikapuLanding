@@ -1,0 +1,111 @@
+:root {
+    --mainColor: #11273F;
+    --secondaryColor: #18D26E;
+    --whiteText: #ffffff;
+    --blackText: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--whiteText);
+    /* box-shadow: inset -9px -9px 18px #041a2c,
+        inset 9px 9px 18px #0c4270; */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: all 0.3s 0.2s;
+    border-radius: 5px;
+}
+
+nav a {
+    color: var(--whiteText);
+    text-decoration: none;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: var(--secondaryColor);
+    transform: scale(1.05);
+}
+
+nav a:focus {
+    color: var(--secondaryColor);
+}
+
+header .navBtn {
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: var(--whiteText);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.loginButton {
+    margin-left: 100px;
+    border: 1px solid var(--secondaryColor);
+    background-color: rgba(24, 210, 110, 0.21);
+    padding: 0 40px;
+    border-radius: 20px;
+    color: var(--whiteText);
+}
+
+@media all and (max-width: 1024px) {
+    header .navBtn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        padding: 40px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        box-shadow: inset -11px 11px 7px #03121f66,
+            inset 11px -11px 7px #0d4a7d;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 100;
+    }
+
+    nav li {
+        width: 70%;
+        text-align: center;
+    }
+
+    header .responsiveNav {
+        transform: none;
+    }
+
+    nav .navCloseBtn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 25px;
+    }
+
+    .loginButton {
+        margin: 0;
+    }
+}
