@@ -24,8 +24,8 @@ export const Features = () => {
         </p>
         <div className="featuresList">
           {
-            featuresList.map(list => 
-              <div className="list">
+            featuresList.map((list, index )=> 
+              <div className="list" key={index}>
                 <img src={list.icon} alt='icons'/>
                  <p>{list.title}</p> 
               </div>
