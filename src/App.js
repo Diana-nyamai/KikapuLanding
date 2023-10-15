@@ -1,4 +1,5 @@
 import './App.scss';
+import { Footer } from './components/Footer/Footer';
 import {Navbar} from './components/Navbar/index'
 import { Cards } from './pages/Cards/Cards';
 import { Features } from './pages/Features';
@@ -17,6 +18,7 @@ function App() {
       <Share/>
       <Sucess/>
       <Team/>
+      <Footer/>
     </div>
   );
 }
