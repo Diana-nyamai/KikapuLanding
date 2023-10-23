@@ -1,7 +1,7 @@
 import './App.scss';
 import { Footer } from './components/Footer/Footer';
 import {Navbar} from './components/Navbar/index'
-import { Cards } from './pages/Cards/Cards';
+import { About } from './pages/About';
 import { Features } from './pages/Features';
 import { Home } from './pages/Home/Home';
 import { Sucess } from './pages/Success/Sucess';
@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
+      <About/>
       <Features/>
-      <Cards/>
       <Share/>
       <Sucess/>
       <Team/>
