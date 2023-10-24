@@ -1,5 +1,10 @@
 .FeaturesContainer{
-    padding: 200px;
+    padding: 100px;
+    background-color: $mainColor;
+    color: $whiteText;
+}
+.FeaturesContainer h2{
+    text-align: center;
 }
 .featuresBox{
     border: 3px solid $mainColor;
@@ -13,6 +18,7 @@
     padding: 20px 120px;
 }
 .featuresList{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
