@@ -6,27 +6,25 @@
 .FeaturesContainer h2{
     text-align: center;
 }
-.featuresBox{
-    border: 3px solid $mainColor;
-    box-shadow: 0px 8px 1px $mainColor;
-    height: auto;
-    padding: 30px 0;
-    border-radius: 20px;
-}
 .fText{
     text-align: center;
     padding: 20px 120px;
 }
-.featuresList{
+.featuresBox{
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px 30px;
-    margin-top: 80px;
-    gap: 100px;
+    border: 3px solid $mainColor;
+    box-shadow: 0px 8px 1px $mainColor;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.featuresList{
+    height: 100%;
 }
 .list{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,19 +38,109 @@
 .list p{
     text-align: center;
 }
+.wallet{
+    top: -150px;
+    left: 45%;
+}
+.foodCredit{
+    top: 20%;
+    left: 20%;
+}
+.marketPlace{
+    top: 70%;
+    left: 70%;
+}
+.demand{
+    top: 70%;
+    left: 20%;
+}
+.speedee{
+    top: 20%;
+    left: 70%;
+}
 
+.centerImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 @media all and (max-width: 1024px){
     .FeaturesContainer{
         padding: 40px;
-    }
-    .featuresBox{
-        height: auto;
-    }
+    }    
     .fText{
         padding: 15px;
     }
+    .featuresBox{
+        height: 100vh;
+        margin-top: 100px;
+    }
     .featuresList{
         padding: 10px;
-        gap: 20px;
     }
+    .centerImg{
+        width: 50%;
+    }
+    .wallet{
+        top: 20px;
+        left: 42%;
+    }
+    .foodCredit{
+        top: 30%;
+        left: 5%;
+    }
+    .marketPlace{
+        top: 60%;
+        left: 80%;
+    }
+    .demand{
+        top: 60%;
+        left: 5%;
+    }
+    .speedee{
+        top: 30%;
+        left: 80%;
+    }
+}
+@media all and (max-width: 500px){
+    .featuresBox{
+        margin-top: 20px;
+    }
+    .fText{
+        padding: 0;
+    }
+    .featureList{
+        height: auto;
+    }
+
+    .list img{
+        width: 50%;
+        height: 50%;
+    }
+    .list p{
+        font-size:14px;
+    }
+    .wallet{
+        top: 15%;
+        left: 32%;
+    }
+    .foodCredit{
+        top: 35%;
+        left: -10%;
+    }    
+    .speedee{
+        top: 35%;
+        left: 75%;
+    }
+    .demand{
+        top: 60%;
+        left: -10%;
+    }
+    .marketPlace{
+        top: 60%;
+        left: 75%;
+    }
+    
+
 }
