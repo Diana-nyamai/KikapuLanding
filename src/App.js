@@ -6,7 +6,7 @@ import { CheckApp } from './pages/CheckApp';
 import { Features } from './pages/Features';
 import { Home } from './pages/Home/Home';
 import { Team } from './pages/Team/index';
-import { Share } from './pages/shareJourney/Share';
+import { DownloadNow } from './pages/downloadNow/DownloadNow';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <About/>
       <Features/>
       <CheckApp/>
-      <Share/>
+      <DownloadNow/>
       <Team/>
       <Footer/>
     </div>
