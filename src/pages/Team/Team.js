@@ -1,35 +1,37 @@
 import avatar from '../../assets/avatar.png'
 import diana from '../../assets/profiles/diana.png'
 import bruce from '../../assets/profiles/bruce.png'
+import sande from '../../assets/profiles/sande.png'
+import elie from '../../assets/profiles/elie.png'
 import {BsLinkedin, BsTwitter} from 'react-icons/bs'
 
 export const Team = () => {
     const teamInfo = [
         {
             image: bruce,
-            name: 'Bruce',
+            name: 'Bruce Matui',
             role: 'Founder',
             linkedin: 'link',
             twitter: 'link'
         },
         {
-            image: avatar,
-            name: 'Peter',
-            role: 'Software Engineer',
+            image: sande,
+            name: 'Peter Sande',
+            role: 'Project Manager',
             linkedin: 'link',
             twitter: 'link'
         },
         {
             image: diana,
-            name: 'Diana',
-            role: 'Software Engineer',
+            name: 'Diana Nyamai',
+            role: 'Frontend Engineer',
             linkedin: 'link',
             twitter: 'link'
         },
         {
-            image: avatar,
-            name: 'Elie',
-            role: 'Software Engineer',
+            image: elie,
+            name: 'Elie Muluke',
+            role: 'Backend Engineer',
             linkedin: 'link',
             twitter: 'link'
         }
