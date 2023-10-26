@@ -1,4 +1,3 @@
-import avatar from '../../assets/avatar.png'
 import diana from '../../assets/profiles/diana.png'
 import bruce from '../../assets/profiles/bruce.png'
 import sande from '../../assets/profiles/sande.png'
