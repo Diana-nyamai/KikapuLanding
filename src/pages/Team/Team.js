@@ -39,7 +39,7 @@ export const Team = () => {
     <div className="teamContainer">
       <h2>Meet the <span style={{color: '#18D26E'}}>team</span> 
       </h2>
-      <p style={{textAlign: 'center'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iusto autem molestiae officiis numquam iste tenetur necessitatibus</p>
+      <p style={{textAlign: 'center'}}>At the heart of our success, there's a dedicated team that makes it all possible. Get to know the talented individuals who drive our vision, expertise, and passion. We're a diverse group with a common goal</p>
 
       <div className="teamList">
         {

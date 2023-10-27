@@ -11,10 +11,8 @@ export const DownloadNow = () => {
       <div className="downloadLeft">
         <h3>Download App Now</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ex
-          consectetur corporis quo commodi quasi possimus veniam eum dignissimos
-          sequi. Distinctio ducimus perspiciatis ullam doloribus maxime possimus
-          incidunt corrupti id?
+        Experience convenience at your fingertips – download our app now! With our user-friendly mobile app, you can access our services anytime, anywhere. Stay connected, be the first to know about our latest updates, and enjoy a seamless experience. Get started and discover the future of Kikapu in the palm of your hand.
+
         </p>
         <div className="appLinks">
           <Link to={'#'}><img src={playStore} alt='playStore'/></Link>

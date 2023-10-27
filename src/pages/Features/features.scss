@@ -18,7 +18,7 @@
     width: 100%;
     padding: 30px 0;
     border-radius: 20px;
-    margin-top: 250px;
+    margin: 250px 0;
 }
 .featuresList{
     height: 100%;
@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 250px;
 }
 .list img{
     width: 70px;
@@ -38,24 +38,23 @@
 .list p{
     text-align: center;
 }
+.featureDesc{
+    text-align: start;
+}
 .wallet{
-    top: -150px;
-    left: 45%;
+    top: -20%;
+    left: 42%;
 }
 .foodCredit{
-    top: 20%;
-    left: 20%;
+    top: 45%;
+    left: 15%;
 }
 .marketPlace{
-    top: 70%;
-    left: 70%;
-}
-.demand{
-    top: 70%;
-    left: 20%;
+    top: 105%;
+    left: 42%;
 }
 .speedee{
-    top: 20%;
+    top: 45%;
     left: 70%;
 }
 
@@ -69,39 +68,38 @@
     .FeaturesContainer{
         padding: 40px;
     }    
-    .fText{
-        padding: 15px;
-    }
     .featuresBox{
         height: 100vh;
         margin-top: 100px;
+        margin-bottom: 20px;
     }
     .featuresList{
         padding: 10px;
+    }
+    .list p{
+        font-size: 12px;
+        width: 100px;
     }
     .centerImg{
         width: 50%;
     }
     .wallet{
         top: 20px;
-        left: 42%;
+        left: 33%;
     }
     .foodCredit{
-        top: 30%;
-        left: 5%;
-    }
-    .marketPlace{
-        top: 60%;
-        left: 80%;
-    }
-    .demand{
-        top: 60%;
-        left: 5%;
+        top: 45%;
+        left: -5%;
     }
     .speedee{
-        top: 30%;
-        left: 80%;
+        top: 45%;
+        left: 67%;
     }
+    .marketPlace{
+        top: 85%;
+        left: 33%;
+    }
+    
 }
 @media all and (max-width: 500px){
     .featuresBox{
@@ -115,31 +113,27 @@
     }
 
     .list img{
-        width: 50%;
+        width: 15%;
         height: 50%;
     }
     .list p{
         font-size:14px;
     }
     .wallet{
-        top: 15%;
-        left: 32%;
+        top: 3%;
+        left: 7%;
     }
     .foodCredit{
         top: 35%;
-        left: -10%;
+        left: -36%;
     }    
     .speedee{
         top: 35%;
-        left: 75%;
-    }
-    .demand{
-        top: 60%;
-        left: -10%;
+        left: 50%;
     }
     .marketPlace{
-        top: 60%;
-        left: 75%;
+        top: 75%;
+        left: 7%;
     }
     
 
